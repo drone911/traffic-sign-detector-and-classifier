@@ -2,22 +2,30 @@
 
 Traffic Sign Detector and Classifiy can detect and classify traffic signs in real time. If the output of the dashboard camera of a vehicle be given as an input to it then it will be able to warn the driver about the restrictions of road such as speed limit, no overtaking, allowed vehicle types etc. This results in better following of road safety rules and thus reduction in vehicle related accidents.
 
+Prerequisites:
+
+1) Python 3.7
+
+2) OpenCV 3.4.1
+
+3) Tensorflow 1.13.1
+
 Project Structure:
 
-a) there are 4 python files:
-  1) main.py: Entry point of program. 
+1) there are 4 python files:
+  1.1) main.py: Entry point of program. 
 	
-  2) classifier.py: describes the classifier. 
+  1.2) classifier.py: describes the classifier. 
 	
-  3) extractor.py: describes function to return images and their respective labels.	 
+  1.3) extractor.py: describes function to return images and their respective labels.	 
 	
-  4) training.py: trains a Convolutional Neural Network. 
+  1.4) training.py: trains a Convolutional Neural Network. 
 	
-b) the dataset is present in Final_Training_IN. Each class has a number associated to it which is also its directory name and used to uniquely identify that class throughout the project. First 18 classes have images of type jpg and the rest of them as type ppm.  
+2) the dataset is present in Final_Training_IN. Each class has a number associated to it which is also its directory name and used to uniquely identify that class throughout the project. First 18 classes have images of type jpg and the rest of them as type ppm.  
 
-c) directory models contain various pre-trained Convolutional Neural Networks.
+3) directory models contain various pre-trained Convolutional Neural Networks.
 	
-d) directory samples contain the sample inputs.
+4) directory samples contain the sample inputs.
 
 Output:
 
