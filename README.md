@@ -13,19 +13,20 @@ Prerequisites:
 Project Structure:
 
 1) there are 4 python files:
-  1.1) main.py: Entry point of program. 
+  
+  	1.1) main.py: Entry point of program. 
 	
-  1.2) classifier.py: describes the classifier. 
+  	1.2) classifier.py: describes the classifier. 
 	
-  1.3) extractor.py: describes function to return images and their respective labels.	 
+  	1.3) extractor.py: describes function to return images and their respective labels.	 
 	
-  1.4) training.py: trains a Convolutional Neural Network. 
+  	1.4) training.py: trains a Convolutional Neural Network. 
 	
-2) the dataset is present in Final_Training_IN. Each class has a number associated to it which is also its directory name and used to uniquely identify that class throughout the project. First 18 classes have images of type jpg and the rest of them as type ppm.  
+2) the dataset is present in "Final_Training_IN". Each class has a number associated to it which is also its directory name and used to uniquely identify that class throughout the project. First 18 classes have images of type jpg and the rest of them as type ppm.  
 
-3) directory models contain various pre-trained Convolutional Neural Networks.
+3) directory "models" contain various pre-trained Convolutional Neural Networks.
 	
-4) directory samples contain the sample inputs.
+4) directory "samples" contain the sample inputs.
 
 Output:
 
