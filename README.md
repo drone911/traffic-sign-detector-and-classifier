@@ -1,8 +1,14 @@
-# traffic-sign-detector-and-classifier
+# Traffic-sign-detector-and-classifier
 
 Traffic Sign Detector and Classifiy can detect and classify traffic signs in real time. If the output of the dashboard camera of a vehicle be given as an input to it then it will be able to warn the driver about the restrictions of road such as speed limit, no overtaking, allowed vehicle types etc. This results in better following of road safety rules and thus reduction in vehicle related accidents.
 
-Prerequisites:
+## Output:
+
+![alt text](https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/ouput_figures/fig1.PNG)
+
+fig 5.1) speed limit of 40 being detected and classified correctly from input https://github.com/drone911/traffic-sign-detector-and-classifier/tree/master/samples/40_speed_limit.mp4
+
+## Prerequisites:
 
 1) Python 3.7
 
@@ -10,7 +16,7 @@ Prerequisites:
 
 3) Tensorflow 1.13.1
 
-Project Structure:
+## Project Structure:
 
 1) there are 4 python files:
   
@@ -27,13 +33,3 @@ Project Structure:
 3) directory "models" contain various pre-trained Convolutional Neural Networks.
 	
 4) directory "samples" contain the sample inputs.
-
-Output:
-
-![alt text](https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/ouput_figures/fig1.PNG)
-
-fig 5.1) speed limit of 40 being detected and classified correctly from input https://github.com/drone911/traffic-sign-detector-and-classifier/tree/master/samples/40_speed_limit.mp4
-                                     
-![alt text](https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/ouput_figures/fig2.jpg)
-  
-fig 5.2) No straight ahead sign being detected and classified correctly from input https://github.com/drone911/traffic-sign-detector-and-classifier/tree/master/samples/no-straight-ahead.PNG
