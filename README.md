@@ -4,11 +4,11 @@ Traffic Sign Detector and Classifiy can detect and classify traffic signs in rea
 
 ## Output:
 
-![alt text](https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/sample_outputs/output_40_image_limit.gif)
+![alt text](https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/sample_outputs/output_40_speed_limit.gif?raw=true)
 
 ![alt text](https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/sample_outputs/fig1.PNG)
 
-fig 5.1) speed limit of 40 being detected and classified correctly from input https://github.com/drone911/traffic-sign-detector-and-classifier/tree/master/samples/40_speed_limit.mp4
+fig) speed limit of 40 being detected and classified correctly from input https://github.com/drone911/traffic-sign-detector-and-classifier/tree/master/samples/40_speed_limit.mp4
 
 ## Prerequisites:
 
