@@ -3,12 +3,14 @@
 Detect and classifies traffic signs in real time. Engineered to warn drivers about the restrictions of road such as speed limit, no overtaking, allowed vehicle types, max vehicle height, etc., and thus potentialy reduce accidents.
 
 ## Output:
+<p align="center">
+  <img src="https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/sample_outputs/output_40_speed_limit.gif?raw=true" />
+</p>
+<p align="center">
+  <img src="https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/sample_outputs/fig1.PNG" />
+</p>
 
-![alt text](https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/sample_outputs/output_40_speed_limit.gif?raw=true)
-
-![alt text](https://github.com/drone911/traffic-sign-detector-and-classifier/blob/master/sample_outputs/fig1.PNG)
-
-fig) speed limit of 40 being detected and classified correctly from input https://github.com/drone911/traffic-sign-detector-and-classifier/tree/master/samples/40_speed_limit.mp4
+Figure) Speed limit of 40 being detected and classified correctly from input https://github.com/drone911/traffic-sign-detector-and-classifier/tree/master/samples/40_speed_limit.mp4
 
 ## Prerequisites:
 
