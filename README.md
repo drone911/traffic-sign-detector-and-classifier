@@ -1,6 +1,6 @@
 # Traffic-sign-detector-and-classifier
 
-Traffic Sign Detector and Classifiy can detect and classify traffic signs in real time. If the output of the dashboard camera of a vehicle be given as an input to it then it will be able to warn the driver about the restrictions of road such as speed limit, no overtaking, allowed vehicle types etc. This results in better following of road safety rules and thus reduction in vehicle related accidents.
+Detect and classifies traffic signs in real time. Engineered to warn drivers about the restrictions of road such as speed limit, no overtaking, allowed vehicle types, max vehicle height, etc., and thus potentialy reduce accidents.
 
 ## Output:
 
